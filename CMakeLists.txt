@@ -165,3 +165,12 @@ endif ()
 if (BOOST_URL_BUILD_EXAMPLES)
     add_subdirectory(example)
 endif ()
+
+#-------------------------------------------------
+#
+# Module
+#
+#-------------------------------------------------
+if (BUILD_MODULE)
+    add_subdirectory(module)
+endif()
