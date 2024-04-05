@@ -77,7 +77,7 @@ struct ipv6_address_rule_t
         system::result<ipv6_address>;
 };
 
-constexpr ipv6_address_rule_t ipv6_address_rule{};
+BOOST_INLINE_CONSTEXPR ipv6_address_rule_t ipv6_address_rule{};
 #endif
 
 } // urls

@@ -60,7 +60,7 @@ struct uri_rule_t
         system::result<value_type>;
 };
 
-constexpr uri_rule_t uri_rule{};
+BOOST_INLINE_CONSTEXPR uri_rule_t uri_rule{};
 #endif
 
 } // urls

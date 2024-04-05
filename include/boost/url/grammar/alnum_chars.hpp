@@ -83,7 +83,7 @@ struct alnum_chars_t
 #endif
 };
 
-constexpr alnum_chars_t alnum_chars{};
+BOOST_INLINE_CONSTEXPR alnum_chars_t alnum_chars{};
 #endif
 
 } // grammar

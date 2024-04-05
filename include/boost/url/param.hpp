@@ -33,7 +33,7 @@ struct no_value_t
 
 /** Constant indicating no value in a param
 */
-constexpr no_value_t no_value{};
+BOOST_INLINE_CONSTEXPR no_value_t no_value{};
 
 //------------------------------------------------
 

@@ -85,7 +85,7 @@ struct alpha_chars_t
     @see
         @ref alpha_chars_t
 */
-constexpr alpha_chars_t alpha_chars{};
+BOOST_INLINE_CONSTEXPR alpha_chars_t alpha_chars{};
 #endif
 
 } // grammar

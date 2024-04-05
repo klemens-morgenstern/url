@@ -60,7 +60,7 @@ struct authority_rule_t
         system::result<value_type>;
 };
 
-constexpr authority_rule_t authority_rule{};
+BOOST_INLINE_CONSTEXPR authority_rule_t authority_rule{};
 #endif
 
 } // urls

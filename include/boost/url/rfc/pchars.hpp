@@ -42,7 +42,7 @@ namespace urls {
         @ref grammar::parse,
         @ref pct_encoded_rule.
 */
-constexpr auto pchars =
+BOOST_INLINE_CONSTEXPR auto pchars =
     unreserved_chars + sub_delim_chars + ':' + '@';
 
 } // urls

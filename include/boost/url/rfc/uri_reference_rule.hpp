@@ -63,7 +63,7 @@ struct uri_reference_rule_t
     system::result<value_type>;
 };
 
-constexpr uri_reference_rule_t uri_reference_rule{};
+BOOST_INLINE_CONSTEXPR uri_reference_rule_t uri_reference_rule{};
 #endif
 
 } // urls

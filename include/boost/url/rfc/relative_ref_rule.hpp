@@ -60,7 +60,7 @@ struct relative_ref_rule_t
         system::result<value_type>;
 };
 
-constexpr relative_ref_rule_t relative_ref_rule{};
+BOOST_INLINE_CONSTEXPR relative_ref_rule_t relative_ref_rule{};
 #endif
 
 } // urls

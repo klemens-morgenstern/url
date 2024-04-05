@@ -28,7 +28,7 @@ struct ignore_case_t
     @ref ignore_case_param to indicate that
     comparisons should be case-insensitive.
 */
-constexpr
+BOOST_INLINE_CONSTEXPR
 #ifdef BOOST_URL_DOCS
 __implementation_defined__
 #else

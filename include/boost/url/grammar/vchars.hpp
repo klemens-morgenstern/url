@@ -75,7 +75,7 @@ struct vchars_t
 #endif
 };
 
-constexpr vchars_t vchars{};
+BOOST_INLINE_CONSTEXPR vchars_t vchars{};
 #endif
 
 } // grammar

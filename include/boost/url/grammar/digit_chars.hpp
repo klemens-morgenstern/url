@@ -75,7 +75,7 @@ struct digit_chars_t
 #endif
 };
 
-constexpr digit_chars_t digit_chars{};
+BOOST_INLINE_CONSTEXPR digit_chars_t digit_chars{};
 #endif
 
 } // grammar

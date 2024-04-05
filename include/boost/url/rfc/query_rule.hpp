@@ -69,7 +69,7 @@ struct query_rule_t
             ) const noexcept;
 };
 
-constexpr query_rule_t query_rule{};
+BOOST_INLINE_CONSTEXPR query_rule_t query_rule{};
 #endif
 
 } // urls

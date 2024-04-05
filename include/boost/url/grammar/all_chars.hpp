@@ -78,7 +78,7 @@ struct all_chars_t
     @see
         @ref all_chars_t
 */
-constexpr all_chars_t all_chars{};
+BOOST_INLINE_CONSTEXPR all_chars_t all_chars{};
 #endif
 
 } // grammar

@@ -65,7 +65,7 @@ struct absolute_uri_rule_t
         system::result<value_type>;
 };
 
-constexpr absolute_uri_rule_t absolute_uri_rule{};
+BOOST_INLINE_CONSTEXPR absolute_uri_rule_t absolute_uri_rule{};
 #endif
 
 } // urls

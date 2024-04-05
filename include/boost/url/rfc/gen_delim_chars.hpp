@@ -41,7 +41,7 @@ namespace urls {
         @ref grammar::parse,
         @ref pct_encoded_rule.
 */
-constexpr
+BOOST_INLINE_CONSTEXPR
 grammar::lut_chars
 gen_delim_chars = ":/?#[]@";
 

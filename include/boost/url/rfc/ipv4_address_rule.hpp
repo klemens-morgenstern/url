@@ -69,7 +69,7 @@ struct ipv4_address_rule_t
         system::result<ipv4_address>;
 };
 
-constexpr ipv4_address_rule_t ipv4_address_rule{};
+BOOST_INLINE_CONSTEXPR ipv4_address_rule_t ipv4_address_rule{};
 #endif
 
 } // urls

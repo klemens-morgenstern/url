@@ -42,7 +42,7 @@ namespace urls {
         @ref grammar::parse,
         @ref pct_encoded_rule.
 */
-constexpr
+BOOST_INLINE_CONSTEXPR
 grammar::lut_chars
 sub_delim_chars = "!$&()*+,;=\x27";
 

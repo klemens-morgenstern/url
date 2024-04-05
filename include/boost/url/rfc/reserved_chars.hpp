@@ -36,7 +36,7 @@ namespace urls {
         @ref grammar::parse,
         @ref pct_encoded_rule.
 */
-constexpr auto reserved_chars = ~unreserved_chars;
+BOOST_INLINE_CONSTEXPR auto reserved_chars = ~unreserved_chars;
 
 } // urls
 } // boost

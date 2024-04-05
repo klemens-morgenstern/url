@@ -93,7 +93,7 @@ struct hexdig_chars_t
 #endif
 };
 
-constexpr hexdig_chars_t hexdig_chars{};
+BOOST_INLINE_CONSTEXPR hexdig_chars_t hexdig_chars{};
 #endif
 
 // VFALCO We can declare

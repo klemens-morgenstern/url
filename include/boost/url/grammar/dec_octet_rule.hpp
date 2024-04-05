@@ -66,7 +66,7 @@ struct dec_octet_rule_t
         system::result<value_type>;
 };
 
-constexpr dec_octet_rule_t dec_octet_rule{};
+BOOST_INLINE_CONSTEXPR dec_octet_rule_t dec_octet_rule{};
 #endif
 
 } // grammar
